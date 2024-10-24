@@ -8,8 +8,11 @@
       inlayHints = true;
       servers = {
         html = {
-          enable = true;
+			enable = true;
         };
+		cssls = {
+			enable = true;
+		};
 		ts_ls = {
 			enable = true;
 		};
